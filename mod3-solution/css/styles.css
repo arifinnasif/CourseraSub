@@ -1,0 +1,95 @@
+body{
+	background-color: #d7f5fc;
+}
+
+#foodllc{
+	color: #238596;
+	font-weight: bold;
+}
+
+#nav-head{
+	background-color: #34faf7;
+	border-radius: 0;
+	border-top: 2px solid #777;
+	/*border-bottom: 2px solid #777;*/
+	margin-bottom: 0;
+	/*height: 150px;*/
+	/*margin-bottom: 0;*/
+}
+
+.container .navbar-brand{
+	position: relative;
+	top:-20px;
+	left: 0;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	vertical-align: middle;
+	display: block;
+}
+
+.container h2{
+	color: #555;
+	font-weight: bold;
+}
+
+body header #menu-list{
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-bottom: 2px solid #777;
+	text-align: center;
+	background-color: #ffb8b3 ;
+}
+
+#bodge
+{
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+#chicken-title, #beef-title, #sushi-title{
+	font-weight: bold;
+}
+
+#chicken, #beef, #sushi{
+	border: 5px solid #d7f5fc;
+}
+
+#chicken{
+	background-color: #5ff58c;
+	color: #1f522e;
+}
+
+#beef{
+	background-color: #90def0;
+	color: #30494f;
+}
+
+#sushi
+{
+	background-color: #fc97f6;
+	color: #4d304b;
+}
+
+@media (max-width: 767px) {
+	#main-content .row{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#nav-head{
+		border-bottom: 2px solid #777;
+	}
+}
+
+
+
+
+
+/*#menu-list{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: white;
+	clear: both;
+}*/
